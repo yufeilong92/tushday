@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_gmthree_note_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_gmThree_note_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_16"
+        android:layout_marginTop="@dimen/space_16"
+        android:text="@string/note_list"
+        android:textColor="@color/text_title_color"
+        android:textSize="@dimen/text_size_16"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginBottom="@dimen/space_16"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/space_8"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/space_16"
+        android:layout_marginRight="@dimen/space_16"
+        android:background="@drawable/bg_login_li"
+        android:layout_height="@dimen/space_48"
+        android:orientation="horizontal">
+        <TextView
+            android:drawablePadding="@dimen/space_8"
+            android:drawableLeft="@mipmap/qb_bj_tj"
+            android:id="@+id/tv_gmThree_note"
+            android:text="添加笔记"
+            android:textColor="@color/text_fu_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+ <View
+     android:id="@+id/v_gmThree_line"
+     style="@style/space_10_height"
+     android:background="@color/gray_line"/>
+</LinearLayout>
